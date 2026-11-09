@@ -32,7 +32,7 @@ Regras:
 
 ## 2. Orçamento do ciclo 1: até R$500
 
-A fonte única de orçamento e critério é o [`trafego-pago/README.md`](../README.md), mantido pela frente de plano de campanhas. Este modelo só aplica o que está lá. Na data deste doc:
+A fonte única de orçamento e critério é o [`trafego-pago/README.md`](../README.md), mantido pela frente de plano de campanhas (branch `trafego-pago/plano-ciclo-1`, ainda não integrada à `main` quando este doc foi escrito). Se esse arquivo não existir na sua cópia, vale a tabela abaixo. Este modelo só aplica o que está lá. Na data deste doc:
 
 | Ciclo | Período | Google | Meta | Total |
 |---|---|---|---|---|

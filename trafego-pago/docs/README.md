@@ -60,6 +60,8 @@ Ficam em `trafego-pago/.claude/skills/`. São curtas e apontam para estes docs. 
 
 Para o Claude Code carregar essas skills, abra a sessão dentro de `trafego-pago/`.
 
+**Dependência:** as skills citam `trafego-pago/README.md` (orçamento e critério), `trafego-pago/medicao/eventos.md` (eventos), `trafego-pago/relatorios/modelo-semanal.md` e `trafego-pago/decisoes/log.md`, que vêm da branch `trafego-pago/plano-ciclo-1`. Até ela entrar na `main`, cada skill usa o que está nestes docs e avisa que o arquivo de origem está ausente.
+
 ## Pontos de atenção levantados na leitura
 
 1. **Upload offline no Google mudou (confirmado):** desde 15/06/2026 vai pelo Data Manager; a Google Ads API recusa quem não tinha histórico. O Gescar começa direto no Data Manager.

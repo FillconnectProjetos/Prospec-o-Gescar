@@ -17,6 +17,8 @@ Para estratégia de mídia genérica, o Claude Ads já cobre (skill `ads-plan`);
 
 ## Regras
 
+- Se um arquivo citado acima não existir (ele vem da branch `trafego-pago/plano-ciclo-1`), diga isso no topo da resposta e use o que está em `trafego-pago/docs/`. Nunca invente orçamento, critério ou nome de evento.
+
 - Rascunho apenas. Criar, ativar, pausar ou mudar orçamento só com aprovação explícita do Edelson, ação por ação.
 - Não ultrapassar o teto do ciclo definido em `trafego-pago/README.md` (ciclo 1: até R$498).
 - Cada regra do rascunho cita o doc de origem.

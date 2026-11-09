@@ -17,6 +17,8 @@ O Claude Ads gera o diagnóstico de conta (`ads-audit`) e as contas de custo (`a
 
 ## Regras
 
+- Se um arquivo citado acima não existir (ele vem da branch `trafego-pago/plano-ciclo-1`), diga isso no topo da resposta e use o que está em `trafego-pago/docs/`. Nunca invente orçamento, critério ou nome de evento.
+
 - Recomendação, não execução. O próximo ciclo só começa com aprovação explícita do Edelson.
 - Escalar só se o critério for atingido. Volume pequeno: diga a incerteza, não extrapole.
 - Não somar a campanha do Renave ao Gescar sem confirmação de que ela faz parte do ciclo.

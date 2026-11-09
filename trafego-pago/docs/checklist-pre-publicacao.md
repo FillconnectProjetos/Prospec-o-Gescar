@@ -1,6 +1,6 @@
 # Checklist pré-publicação
 
-Preencher para **cada** campanha ou anúncio antes de pedir aprovação ao Edelson. Item sem ✅ bloqueia o pedido. O checklist preenchido vai junto com o registro em `decisoes/log.md`.
+Preencher para **cada** campanha ou anúncio antes de pedir aprovação ao Edelson. Cada item fica ✅ (ok), **N/A** (não se aplica a esta campanha, com o motivo em uma linha) ou ❌. Qualquer ❌ bloqueia o pedido. Itens marcados [Meta], [Google], [Site] ou [WhatsApp] só se aplicam quando a campanha usa aquela plataforma ou destino. O checklist preenchido vai junto com o registro em `decisoes/log.md`.
 
 Campanha: `______________________`  Data: `__/__/____`  Responsável: `________`
 
@@ -16,36 +16,38 @@ Campanha: `______________________`  Data: `__/__/____`  Responsável: `________`
 
 ## 2. Medição
 
-- [ ] Google Tag em todas as páginas; ação de conversão primária configurada [09, 10]
-- [ ] Pixel da Meta ativo; eventos do navegador e da CAPI com mesmo `event_id` e `event_name` [03]
-- [ ] Fila da CAPI enviando em menos de 7 dias [03]
-- [ ] Clique para WhatsApp: `ctwa_clid` sendo gravado no CRM, ou registro de que só mediremos "conversa iniciada" [04]
-- [ ] Formulário grava `gclid`/`gbraid`/`wbraid` e e-mail/telefone [09]
-- [ ] Envio de conversões do CRM ao Google pelo Data Manager, dentro de 63 dias [09]
-- [ ] Teste feito: um lead de teste aparece no Gerenciador de Eventos e no Google Ads
+- [ ] [Google] [Site] Google Tag em todas as páginas; ação de conversão primária configurada [09, 10]
+- [ ] [Meta] [Site] Pixel da Meta ativo; eventos do navegador e da CAPI com mesmo `event_id` e `event_name` [03]
+- [ ] [Meta] Fila da CAPI enviando em menos de 7 dias [03]
+- [ ] [Meta] [WhatsApp] Clique para WhatsApp: `ctwa_clid` sendo gravado no CRM, ou registro de que só mediremos "conversa iniciada" [04]
+- [ ] [Google] [Site] Formulário grava `gclid`/`gbraid`/`wbraid` e e-mail/telefone [09]
+- [ ] [Google] Envio de conversões do CRM ao Google pelo Data Manager, dentro de 63 dias [09]
+- [ ] Teste feito: um lead de teste aparece na plataforma da campanha (Gerenciador de Eventos e/ou Google Ads)
 
 ## 3. LGPD e consentimento
 
 - [ ] Política de privacidade publicada, citando Meta e Google como destinatários [13]
-- [ ] Banner de cookies com "Rejeitar" de mesmo destaque, padrão desligado [13]
-- [ ] Modo de Consentimento ligado, padrão negado [10]
-- [ ] Formulário com finalidade, link da política e caixa de consentimento não pré-marcada [13]
-- [ ] Opt-in do WhatsApp registrado; instrução de saída nas mensagens de marketing [07, 13]
+- [ ] [Site] Banner de cookies com "Rejeitar" de mesmo destaque, padrão desligado [13]
+- [ ] [Google] [Site] Modo de Consentimento ligado, padrão negado [10]
+- [ ] [Site] Formulário com finalidade, link da política e caixa de consentimento não pré-marcada [13]
+- [ ] [WhatsApp] Opt-in do WhatsApp registrado; instrução de saída nas mensagens de marketing [07, 13]
 - [ ] E-mail e telefone com hash SHA-256 antes do envio [03, 09]
 
-## 4. Página de destino
+## 4. Página de destino [Site]
+
+Se o destino é só o WhatsApp, marque N/A e confira o perfil comercial do WhatsApp (contato e política de privacidade, doc 07).
 
 - [ ] No ar, abre em celular e desktop, sem "em construção" [11]
 - [ ] Promessa do anúncio aparece na página [11]
 - [ ] URL de exibição corresponde ao domínio real [11]
-- [ ] Botão de WhatsApp e formulário funcionando
+- [ ] Botão de WhatsApp e formulário funcionando (o que existir na página)
 - [ ] Contato da empresa visível
 
 ## 5. Nomenclatura e estrutura
 
 - [ ] Nome no padrão `GESCAR | Plataforma | Objetivo | Público | Região | C<n>` [estrutura-campanhas]
 - [ ] Uma campanha = um objetivo; um conjunto por público [01]
-- [ ] Google: grupos temáticos, 3 anúncios por grupo, negativas cadastradas [08]
+- [ ] [Google] Grupos temáticos, 3 anúncios por grupo, negativas cadastradas [08]
 - [ ] Região correta (MT no ciclo 1)
 - [ ] Orçamento diário dentro da divisão do ciclo aprovada
 

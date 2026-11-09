@@ -21,5 +21,7 @@ O Claude Ads já audita Pixel, Events Manager e conversões do Google de forma g
 
 ## Regras
 
+- Se um arquivo citado acima não existir (ele vem da branch `trafego-pago/plano-ciclo-1`), diga isso no topo da resposta e use o que está em `trafego-pago/docs/`. Nunca invente orçamento, critério ou nome de evento.
+
 - Só leitura. Mudança em Pixel, evento, dataset ou conversão em conta real precisa de aprovação do Edelson.
 - Não colar tokens ou chaves em arquivo ou conversa.

@@ -20,6 +20,8 @@ Camada específica do Gescar. Para a análise genérica de página de destino us
 
 ## Regras
 
+- Se um arquivo citado acima não existir (ele vem da branch `trafego-pago/plano-ciclo-1`), diga isso no topo da resposta e use o que está em `trafego-pago/docs/`. Nunca invente orçamento, critério ou nome de evento.
+
 - Saída é parecer, nunca publicação. Nada vai ao ar sem aprovação explícita do Edelson, ação por ação.
 - Na dúvida entre aprovar e reprovar, reprove e explique.
 - Não invente regra de plataforma: se não está nos docs, marque "a confirmar na fonte oficial".
