@@ -28,3 +28,8 @@ data · revenda · cidade · código de origem · qualificado (s/n) · demo (s/n
 3. Uma única fonte de disparo da conversão de WhatsApp.
 4. Guardar gclid/fbclid na sessão para importação offline.
 5. Conversions API depois do ciclo 1 (Lead, Lead Qualificado, Proposta Enviada, Venda).
+
+## Restrições confirmadas (docs do PR #2)
+- Google offline: desde 15/06/2026 a importação de conversões offline é feita pelo **Data Manager** (arquivo na interface ou Data Manager API). Não usar `UploadClickConversions`. Prazo de envio: até 63 dias após o clique.
+- Meta CAPI para mensagens exige **WhatsApp Cloud API** e o `ctwa_clid` gravado no CRM no primeiro contato. O app WhatsApp Business do celular não serve.
+- Até lá, a atribuição de qualificado, demo e venda vem do código de origem na mensagem.

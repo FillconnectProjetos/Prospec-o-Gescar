@@ -4,7 +4,11 @@ Conta: exclusiva do Gescar, ainda a criar. Total do ciclo: R$150, com limite de 
 Se a conta e o pixel não estiverem prontos em 21/11, a verba fica parada; não migra para o Google sem aprovação.
 
 ## Campanha: GESCAR | Lojistas MT | Mensagens
-- Objetivo: engajamento com destino ao WhatsApp.
+- Objetivo: **Cadastros**, local de conversão WhatsApp, otimização para conversas (recomendado; decisão do Edelson pendente).
+  Engajamento com destino ao WhatsApp também otimiza para conversas. Cadastros é o objetivo de captação da Meta e abre
+  formulário instantâneo e Advantage+ leads no ciclo 2. Ver `docs/02` e `docs/04` (PR #2).
+- Sem WhatsApp Cloud API, não há `ctwa_clid`: a Meta mede só "conversa iniciada". Qualificado, demo e venda são
+  rastreados pelo código de origem [M1]/[M2]/[M3] na planilha até o número migrar para a Cloud API.
 - Um conjunto: MT, 25–60 anos, interesses de revenda e comércio de veículos (Webmotors, iCarros, OLX Autos, Mobiauto,
   concessionária) com Advantage+ ligado.
 - Excluir seguidores do @gescar.app de qualquer público semelhante (base fria, fora do perfil).
