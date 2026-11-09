@@ -13,6 +13,10 @@ Campanha: `______________________`  Data: `__/__/____`  Responsável: `________`
 - [ ] Menção a lei ou regulação revisada quanto a "temas sociais" na Meta [05]
 - [ ] Preço, se citado, igual ao da página e com modelo de cobrança claro [11]
 - [ ] Sem botão falso, imitação de notificação ou clickbait [11]
+- [ ] Tema do anúncio é o tema da página de destino (anúncio de Renave → página de Renave) [05]
+- [ ] Nenhuma marca ou logo de concorrente (AutoConf, RevendaMais) ou de montadora sem direito de uso, inclusive nas artes do Estúdio [05]
+- [ ] [Meta] Formulário de cadastro pede só nome, WhatsApp, loja e cidade [05]
+- [ ] [Meta] Conteúdo de parceria marcado com a ferramenta de conteúdo de marca, quando houver [05]
 
 ## 2. Medição
 
@@ -26,7 +30,13 @@ Campanha: `______________________`  Data: `__/__/____`  Responsável: `________`
 
 ## 3. LGPD e consentimento
 
-- [ ] Política de privacidade publicada, citando Meta e Google como destinatários [13]
+- [ ] Política de privacidade publicada, com controlador, contato, finalidades, bases legais, compartilhamento com Meta e Google, prazo de guarda e direitos [13]
+- [ ] Aviso de finalidade e link da política junto do formulário e do botão de WhatsApp [13]
+- [ ] Base legal definida para cada uso do dado (responder ao contato x usar em publicidade) [13]
+- [ ] Prova do consentimento guardada no CRM (data, hora, canal, texto, versão da política) [13]
+- [ ] Canal do titular funcionando (acesso, correção, exclusão) [13]
+- [ ] Dados recebidos da Meta usados só em agregado, sem enriquecer ficha de lead nem repassar [05]
+- [ ] Política e textos de consentimento validados por advogado (uma vez, e de novo se mudarem) [13]
 - [ ] [Site] Banner de cookies com "Rejeitar" de mesmo destaque, padrão desligado [13]
 - [ ] [Google] [Site] Modo de Consentimento ligado, padrão negado [10]
 - [ ] [Site] Formulário com finalidade, link da política e caixa de consentimento não pré-marcada [13]
@@ -44,6 +54,8 @@ Se o destino é só o WhatsApp, marque N/A e confira o perfil comercial do Whats
 - [ ] Contato da empresa visível
 
 ## 5. Nomenclatura e estrutura
+
+- [ ] [Meta] Conta de anúncios ligada à empresa real; no Gescar ADS, uma conta por lojista [05]
 
 - [ ] Nome no padrão `GESCAR | Plataforma | Objetivo | Público | Região | C<n>` [estrutura-campanhas]
 - [ ] Uma campanha = um objetivo; um conjunto por público [01]

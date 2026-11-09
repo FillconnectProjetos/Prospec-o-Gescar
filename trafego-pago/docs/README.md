@@ -4,7 +4,7 @@ Base de consulta do tráfego pago do Gescar e do futuro produto Gescar ADS. Cada
 
 **Regra fixa:** o projeto planeja e monta. Nada é publicado e nenhum gasto muda sem aprovação explícita do Edelson, ação por ação, com registro em `trafego-pago/decisoes/log.md`.
 
-Leitura de todas as fontes: **09/11/2026**. Itens marcados "a confirmar" ou "abrir manualmente" não puderam ser lidos de forma automática e precisam de conferência humana antes da primeira publicação.
+Leitura de todas as fontes: **09/11/2026**. As páginas que bloqueiam leitura automática (Padrões de Publicidade da Meta e texto da LGPD) foram lidas pelo Edelson no navegador nessa mesma data. Itens marcados "a confirmar" ou "abrir manualmente" não puderam ser lidos de forma automática e precisam de conferência humana antes da primeira publicação.
 
 ## Meta
 
@@ -14,7 +14,7 @@ Leitura de todas as fontes: **09/11/2026**. Itens marcados "a confirmar" ou "abr
 | 02 | Objetivos e Advantage+ leads | [02-meta-objetivos-e-advantage-leads.md](02-meta-objetivos-e-advantage-leads.md) | Lido via Central de Ajuda; link original bloqueado |
 | 03 | Conversions API e deduplicação com o Pixel | [03-meta-conversions-api-e-deduplicacao.md](03-meta-conversions-api-e-deduplicacao.md) | Lido; hash de `user_data` a conferir |
 | 04 | Clique para WhatsApp e CAPI para Business Messaging (`ctwa_clid`) | [04-meta-clique-para-whatsapp-e-capi-mensagens.md](04-meta-clique-para-whatsapp-e-capi-mensagens.md) | Lido |
-| 05 | Políticas de anúncios | [05-meta-politicas-de-anuncios.md](05-meta-politicas-de-anuncios.md) | Parcial: Transparency Center bloqueado, abrir manualmente |
+| 05 | Políticas de anúncios | [05-meta-politicas-de-anuncios.md](05-meta-politicas-de-anuncios.md) | Lido (Padrões de Publicidade lidos pelo Edelson no navegador) |
 
 ## WhatsApp
 
@@ -37,7 +37,7 @@ Leitura de todas as fontes: **09/11/2026**. Itens marcados "a confirmar" ou "abr
 
 | # | Tema | Arquivo | Status |
 |---|---|---|---|
-| 13 | LGPD em anúncios, formulários e WhatsApp | [13-lgpd-anuncios-formularios-whatsapp.md](13-lgpd-anuncios-formularios-whatsapp.md) | Guias ANPD lidos; texto da lei e Resolução 2/2022 a conferir |
+| 13 | LGPD em anúncios, formulários e WhatsApp | [13-lgpd-anuncios-formularios-whatsapp.md](13-lgpd-anuncios-formularios-whatsapp.md) | Lido: guias da ANPD e LGPD (arts. 5º, 7º até VI, 8º, 9º, 18, 52). Falta conferir o art. 7º a partir do VII e a Resolução 2/2022. Exige validação de advogado |
 
 ## Modelo e operação Gescar
 
@@ -69,3 +69,5 @@ Para o Claude Code carregar essas skills, abra a sessão dentro de `trafego-pago
 3. **Janela de 72h grátis exige resposta em 24h** e vale só para quem veio pelo app de celular.
 4. **Deturpação no Google suspende conta sem aviso:** nenhuma promessa de resultado ou funcionalidade futura.
 5. **Cookies de publicidade pedem consentimento** pelo guia da ANPD: banner e política de privacidade são pré-requisito, não detalhe.
+6. **Meta: uma conta de anúncios por lojista** no Gescar ADS, e dado de publicidade da Meta só em agregado, nunca para enriquecer ficha de lead (doc 05).
+7. **Consentimento precisa de prova:** o CRM guarda data, canal, texto aceito e versão da política (LGPD art. 8º, doc 13).
