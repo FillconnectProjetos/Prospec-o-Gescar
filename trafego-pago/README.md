@@ -14,7 +14,7 @@ Toda mudança entra em `decisoes/log.md` com data, motivo e resultado esperado.
 | Ciclo | Período | Google | Meta | Total |
 | --- | --- | --- | --- | --- |
 | 0 | até 20/11/2026 | Renave R$45/dia | — | ~R$500 |
-| 1 | 21/11 a 20/12/2026 | R$350 | R$150 | R$500 |
+| 1 | 21/11 a 20/12/2026 | R$348 (R$11,60/dia) | R$150 (limite de gasto da campanha) | até R$498 |
 | 2 | se o ciclo 1 der resultado | R$650 | R$350 | R$1.000 |
 
 "Deu resultado" no ciclo 1: 3+ demonstrações realizadas, custo por demonstração até R$120 e custo por contato qualificado até R$60.

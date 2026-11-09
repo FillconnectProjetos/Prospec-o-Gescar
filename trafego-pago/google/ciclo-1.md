@@ -1,6 +1,6 @@
 # Google Ads, ciclo 1 (rascunho, não publicado)
 
-Conta 157-255-9413. Total do ciclo: R$350 (R$11,70/dia).
+Conta 157-255-9413. Total do ciclo: até R$348 (R$11,60/dia × 30 dias).
 
 ## Campanha A: GESCAR | Renave | Pesquisa | MT (existente, ID 24441068874)
 - Até 20/11: sem mudança (ciclo 0, decisão pendente).
@@ -10,7 +10,7 @@ Conta 157-255-9413. Total do ciclo: R$350 (R$11,70/dia).
 - Descrição: Entrada e saída do veículo no Renave direto no sistema, sem retrabalho na loja. (79)
 - Auditoria: pendente da conexão do Google Ads no Windsor.ai.
 
-## Campanha B: GESCAR | Sistema Revenda | Pesquisa | MT (nova), R$7,70/dia
+## Campanha B: GESCAR | Sistema Revenda | Pesquisa | MT (nova), R$7,60/dia
 Configuração: MT por presença, seg a sáb 7h–20h, só rede de pesquisa, maximizar cliques com CPC máx. R$4 por 2 semanas;
 maximizar conversões só com 15+ conversões medidas.
 

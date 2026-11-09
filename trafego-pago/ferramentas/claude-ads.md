@@ -13,3 +13,9 @@ Fonte: github.com/AgriciDaniel/claude-ads, licença MIT, commit fc3908e786c31877
 ## O que foi instalado
 Só os SKILL.md de que o projeto precisa, em `.claude/skills/`: ads-dna, ads-landing, ads-audit, ads-plan, ads-math,
 ads-google, ads-meta. Os scripts Python não foram copiados. Licença em `.claude/skills/LICENSE-claude-ads`.
+
+## Limite de uso
+Sem os scripts e as referências do pacote completo, as skills servem como roteiro de análise em texto.
+O fetch guardado do `ads-landing` e a pontuação determinística do `ads-audit` não estão disponíveis.
+A análise de página é feita lendo o código do site no repositório do Gescar, e a auditoria de conta usa os dados dos conectores (Windsor/Meta).
+Se algum dia precisarmos da pontuação automática, instalar o pacote completo no commit revisado.
