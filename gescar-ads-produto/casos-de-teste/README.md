@@ -28,6 +28,7 @@ Loja: AutoCenter Teste, Cuiabá, raio 40 km
 Estoque: seminovos populares e SUVs, ticket médio R$ 85.000
 Margem média: R$ 5.000 por carro; parcela para anúncio: 12%
 Taxa de lead para venda: 3% → teto de CPL (T) = R$ 18
+Data de referência: dia 10 do mês (20 dias restantes)
 Teto mensal: R$ 3.000; usado no mês: R$ 1.200
 Canal: formulário instantâneo
 Campanhas ativas: "CarroDoDia | Corolla 2020" (R$ 30/dia, 6 dias no ar, CPL R$ 15, 2 test drives)

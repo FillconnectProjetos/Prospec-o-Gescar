@@ -38,8 +38,15 @@ Se o lojista quer 5 vendas vindas de anúncio com custo máximo de R$ 600 cada, 
 ## Verba diária inicial
 
 - Mínimo de R$ 20 por dia por campanha **[HIPÓTESE]**: abaixo disso a Meta demora demais para aprender.
-- Ponto de partida: entre 2 e 3 vezes o teto de CPL por dia, limitado ao teto mensal dividido pelos dias restantes.
-- No exemplo acima: entre R$ 36 e R$ 54 por dia.
+- Ponto de partida: entre 2 e 3 vezes o teto de CPL por dia, limitado ao **saldo diário disponível**:
+
+```
+saldo do mês = teto mensal − gasto já feito no mês − (verba diária das campanhas ativas × dias restantes)
+saldo diário disponível = saldo do mês ÷ dias restantes
+```
+
+- No exemplo acima: entre R$ 36 e R$ 54 por dia, se o saldo diário disponível permitir.
+- Se o saldo diário disponível for menor que R$ 20, o agente não propõe campanha nova: explica ao lojista e sugere pausar outra campanha ou esperar o próximo mês.
 
 ## Recalcular
 
