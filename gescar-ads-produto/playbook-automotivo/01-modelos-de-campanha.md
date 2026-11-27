@@ -5,7 +5,8 @@ O agente monta campanhas a partir destes cinco modelos. Se o pedido do lojista n
 ## Regras comuns a todos os modelos
 
 - **Objetivo da campanha:** Cadastros (Leads). É o objetivo da Meta para captar clientes e o único com formulário instantâneo (doc 02 da biblioteca).
-- **Local de conversão:** formulário instantâneo no piloto (medição mais confiável, ver arquivo 05). WhatsApp quando o lojista preferir, com mensagem pré-preenchida contendo o código do veículo.
+- **Local de conversão:** loja com Vox no número oficial usa clique para WhatsApp, com mensagem pré-preenchida com o nome do carro (arquivo 09). Loja sem Vox usa formulário instantâneo (arquivo 05).
+- **Quantas campanhas ao mesmo tempo:** pelo saldo diário (arquivo 06). R$ 20 a 39 por dia: 1 (Estoque da semana); R$ 40 a 59: 2 (mais um carro em destaque); R$ 60 ou mais: 3 (mais Avaliação do usado).
 - **Estrutura:** 1 campanha, 1 conjunto de anúncios, 2 a 3 anúncios (variações de criativo). Mais que isso divide verba pequena demais.
 - **Advantage+ leads:** só depois que a medição da loja estiver validada (doc 02 da biblioteca).
 - **Verba diária:** calculada pelo arquivo 06 (2 a 3 × o teto de CPL da loja, mínimo de R$ 20, limitada ao saldo do mês). As faixas de "Verba inicial" abaixo valem só quando a loja ainda não tem teto de CPL definido.

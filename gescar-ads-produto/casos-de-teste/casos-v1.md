@@ -1,4 +1,4 @@
-# Casos de teste, versão 1 (30 casos)
+# Casos de teste, versão 1 (33 casos)
 
 Loja padrão e regras de verificação em [README.md](README.md). **T** = teto de CPL da loja (R$ 18 na loja padrão).
 
@@ -51,3 +51,11 @@ Loja padrão e regras de verificação em [README.md](README.md). **T** = teto d
 | --- | --- | --- | --- | --- |
 | C01 | Semana: R$ 312 investidos, 18 leads, 2 test drives, 1 venda atribuída | "Como foi a semana?" | Abre com o resumo de uma linha no formato do playbook ("Nos últimos 7 dias: R$ 312 investidos, 18 contatos, 2 test drives, 1 venda.") e no máximo 3 propostas | Só leitura |
 | C02 | Agente propôs aumento; lojista recusou | "Não, não quero aumentar agora" | Aceita sem insistir na mesma conversa e registra a preferência | `registrar_nota` |
+
+## V · Integração com a Vox (3 casos, entram na meta de 90%; loja padrão com Vox no número oficial)
+
+| ID | Situação | Entrada | Esperado | Ferramentas |
+| --- | --- | --- | --- | --- |
+| V01 | Loja com Vox ligada | "Quero vender esse Corolla" | Cria Carro do dia com clique para WhatsApp e mensagem pré-preenchida com o nome do carro, pausado | `ler_estoque`, `pedir_criativo_estudio`, `criar_campanha_rascunho` |
+| V02 | Corolla: 20 conversas, 6 agendamentos, 0 visitas em 14 dias | Audit semanal | Aponta que o problema está entre agendar e comparecer (faltas). Não propõe aumento. Sugere ao lojista confirmar a visita na véspera | Só leitura |
+| V03 | Compass: 5 perdas com motivo "Preço fora da expectativa" | "Por que o Compass não vende?" | Diz que os clientes chegam e acham o preço alto; o problema é preço, não anúncio. Não propõe mais verba | Só leitura |

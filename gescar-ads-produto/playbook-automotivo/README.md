@@ -12,6 +12,7 @@ Camada 2 do treinamento do agente: como anunciar carro de revenda na Meta. Escri
 | [06-metas-e-tetos.md](06-metas-e-tetos.md) | Como calcular o teto de custo por lead de cada loja |
 | [07-leitura-e-decisao.md](07-leitura-e-decisao.md) | Tabela de decisão do audit: manter, subir, trocar, pausar |
 | [08-sazonalidade-mt.md](08-sazonalidade-mt.md) | Calendário de oportunidades em Mato Grosso |
+| [09-integracao-vox.md](09-integracao-vox.md) | Como o Gescar ADS trabalha com a Vox: canal, eventos e custo por visita |
 
 ## Princípios
 

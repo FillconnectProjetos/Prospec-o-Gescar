@@ -22,7 +22,11 @@ Regras técnicas (docs 03 e 04 da biblioteca): `event_time` até 7 dias atrás; 
 | **B. WhatsApp com Cloud API** | O `ctwa_clid` vem no webhook da primeira mensagem e é guardado na ficha (doc 04) | Loja com número na WhatsApp Cloud API |
 | **C. WhatsApp com código na mensagem** | A mensagem pré-preenchida leva o código do veículo e da campanha (ex.: "Olá! Quero saber do Corolla #C120"). O vendedor ou o Gescar registra o código no lead | Loja que usa o WhatsApp Business do celular. A Meta mede só "conversa iniciada", mas o Gescar sabe qual anúncio gerou a venda |
 
-Na rota C, os eventos de funil não voltam para a Meta otimizar; servem para o agente e o lojista decidirem. Por isso a rota A é o padrão do piloto.
+Na rota C, os eventos de funil não voltam para a Meta otimizar; servem para o agente e o lojista decidirem.
+
+**Loja com Vox:** a rota B é o padrão. A Vox usa a WhatsApp Cloud API direto da Meta, guarda `ctwa_clid` e `ad_id` e é a única que envia eventos à Meta. Detalhes no arquivo 09. Sem Vox, a rota A continua sendo o padrão.
+
+**Otimização por lead qualificado:** a Meta só otimiza por etapa do CRM (Conversion Leads) a partir de cerca de 200 leads por mês por loja. Abaixo disso, os eventos servem para medir e para o agente decidir, e o Gescar ADS não promete essa otimização.
 
 ## O que o agente faz com a qualidade da medição
 
